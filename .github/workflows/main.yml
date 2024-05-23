@@ -21,7 +21,7 @@ jobs:
         java-version: '11'
 
     - name: Compile Java Program
-      run: javac src/HelloWorld.java
+      run: javac HelloWorld.java
 
     - name: Run Java Program
-      run: java -cp src HelloWorld
+      run: java -cp HelloWorld
